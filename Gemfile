@@ -38,7 +38,5 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-group :assets do
-  gem 'compass-rails' # you need this or you get an err
-  gem 'zurb-foundation', '~> 4.0.0'
-end
+gem 'foundation-rails'
+gem 'compass-rails'
